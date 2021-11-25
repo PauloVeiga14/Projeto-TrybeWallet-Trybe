@@ -30,15 +30,47 @@ input {
   height: 15px;
   padding: 3px;
   margin: 1px;
+  font-size: 15px;
 }
 
 input::placeholder {
   text-align: center;
 }
 
+#value {
+  width: 90px;
+}
+
+#description {
+  width: 200px;
+}
+
+select {
+  width: 150px;
+  height: 26px;
+  padding: 3px;
+  margin: 1px;
+  font-size: 15px;
+}
+
+#currency {
+  width: 80px;
+  text-align: center;
+}
+
 .loginButton {
   width: 270px;
   height: 30px;
+  padding: 3px;
+  margin: 1px;
+  margin-top: 10px;
+  background-color: lightgreen;
+  font-size: 15px;
+}
+
+.addButton {
+  width: 150px;
+  height: 28px;
   padding: 3px;
   margin: 1px;
   margin-top: 10px;
@@ -72,3 +104,9 @@ header {
 .currency-info {
   display: flex;
 };
+
+/* #wallet {
+  background-color: lightcoral;
+  display: flex;
+  justify-content: space-between;
+}; */

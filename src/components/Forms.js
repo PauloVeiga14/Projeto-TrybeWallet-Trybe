@@ -71,7 +71,7 @@ class Forms extends Component {
     const methods = ['Dinheiro', 'Cartão de crédito', 'Cartão de débito'];
     const allTags = ['Alimentação', 'Lazer', 'Trabalho', 'Transporte', 'Saúde'];
     return (
-      <form>
+      <form id="wallet">
         <label htmlFor="value">
           Valor:
           <input id="value" type="text" value={ value } onChange={ this.handleChange } />
